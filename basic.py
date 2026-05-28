@@ -1,9 +1,9 @@
-# a=int(input())
-# b=a*1000
+# a=float(input())
+# b=int(a*1000)
 # print(b,"grams")  #1st program
 
-# a=int(input())
-# b=(a*9/5)+32
+# a=float(input())
+# b=int(a*9/5)+32
 # print(b,"f")      #2nd program
 #
 # a=10
@@ -16,16 +16,15 @@
 # else:
 #     print("c is greater")     #3rd program
 
-# a=111
-# if a<100 or a>1000:
+#0 a=73
+# if a>100 or a<1000:
 #     print("wrong number")
+# elif(a%2==0):
+#     a=a%3
+#     print(a,"even number")
 # else:
-#     if(a%2==0):
-#         a=a%3
-#         print(a,"even number")
-#     else:
-#         a=a%2
-#         print(a,"odd number")     #4th program
+#     a=a%2
+#     print(a,"odd number")     #4th program
 
 
 # a=101
@@ -57,9 +56,11 @@
 # elif c=="*":
 #     c=a*b
 #     print(c)
-# else:
+# elif c=="/":
 #     c=a/b
-#     print(c)          #6th program
+#     print(c)
+#  else:
+#    print("invalid input")  #6th program
 
 
 # a="CVCORP"
@@ -82,3 +83,29 @@
 # for i in range(a,b+1):
 #     if(i%2==0):
 #         print(i)          #10th program
+
+# a=1
+# b=7
+# sum=0
+# c=0
+# for i in range(a,b+1):
+#     sum=sum+i
+#     c=c+1
+# print(sum/c)                #avg of given numbers
+
+# a=1
+# b=10
+# sum=0
+# c=0
+# for i in range(a,b+1):
+#     if(i%2==0):
+#         sum=sum+i
+#         c=c+1
+# print(f"{sum:.2f}")       #avg of even numbers
+
+# a=1
+# b=10
+# if(a%2==1):
+#     a=a+1
+# for i in range(a,b+1,2):
+#     print(i)
