@@ -29,4 +29,33 @@
 #     return first+middle+last
 # print(name("abhi","ram","patel"))
 
+# def intro(name,city,hobby):
+#     print(f" iam  {name} from {city} and i like {hobby}")
+# intro("abhiram", "mancherial", "online games")
+
+# def subtract(a, b):
+#     return a - b
+# print(subtract(3, 10))
+
+# def bio(first_name, last_name,age):
+#     print("My name is ",first_name)
+#     print("My surname is ",last_name)
+#     print("My age is ",age)
+# print(bio("abhiram","akula","21"))
+
+# def send_email(to, subject, content):
+#     print("Dear",to)
+#     print("Subject:",subject)
+#     print("Content:",content)
+# send_email("hr", "job application details ", "requesting for the response ")
+
+# def ticket(alice, delhi, mumbai):
+#     print("name", alice)
+#     print("from", delhi)
+#     print("to", mumbai)
+# ticket("alice", "delhi", "mumbai")
+
+# def power(base, exponent=2):
+#     return base ^ exponent
+# print(power(4,6))
 
